@@ -1,0 +1,97 @@
+.card {
+    width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: "Robotico";
+  font-size: 8rem;
+  background-image: url("https://cdn.pixabay.com/photo/2016/11/23/15/23/cosmos-1853491_1280.jpg");
+  background-position: bottom center; 
+	background-repeat: no-repeat; 
+	background-size:cover; 
+	background-attachment:fixed;
+  
+}
+/*
+..card-button{
+    width: 6rem;
+    height: 3rem;
+    color: white;
+    background-color: blue;
+    border: gold;
+    border-width: 1rem;
+}
+*/
+.card-button {
+    text-decoration: none;
+    border: 3px solid rgb(255, 217, 0);
+    color: transparent;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/23/15/23/cosmos-1853491_1280.jpg");
+    padding: 40px 80px;
+    font-size: 28px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 0.5s;
+    position: relative;
+  }
+  .card-button:before {
+    content: "STAR WARS";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 217, 0);
+    background: rgb(34, 34, 34);
+    font-size: 28px;
+    top: 0;
+    left: 100%;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(0) rotatey(0);
+    opacity: 0;
+  }
+  .card-button:hover:before {
+    transform: scale(1) rotatey(360deg);
+    left: 0;
+    opacity: 1;
+  }
+  .card-button:after {
+    content: "SEE MORE!";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 217, 0);
+    background: rgb(34, 34, 34);
+    font-size: 28px;
+    top: 0;
+    left: 0;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    transition: all 1s;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transform: scale(1) rotatey(0);
+    opacity: 1;
+  }
+  .card-button:hover:after {
+    transform: scale(0) rotatey(360deg);
+    left: -100%;
+    opacity: 0;
+  }
+
+.foto {
+  background-position: center;
+  background-size: cover;
+  transform: rotateX(0deg);
+  transform-origin: top center;
+  transition: all 300ms ease-out;
+  box-shadow: 0 0 0.2em gold;
+}

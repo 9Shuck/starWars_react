@@ -1,0 +1,87 @@
+.navBarStyle {
+    color:  rgb(155, 152, 152);
+    height: 10rem;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/22001743/thumb/1.jpg');
+}
+
+.bottomNavs {
+    color: white;
+    background-image: url('https://ak.picdn.net/shutterstock/videos/22001743/thumb/1.jpg');
+    border-top: rgb(56, 55, 55) solid 1px;
+    border-bottom: rgb(56, 55, 55) solid 3px;
+}
+.nav-link {
+    color:  rgb(155, 152, 152);
+    min-width: 9rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: white;
+}
+.nav-link:active{
+    color: yellow;
+}
+
+
+.rowTitle {
+    text-align: center;
+}
+.searchButton {
+    min-width: 12rem;
+    border-radius: 0.4rem;
+    max-height: 2.5rem;
+}
+.searchButton > .btn {
+    background-color: rgb(255, 230, 0);
+}
+.searchButton > .searchBar {
+    background-color: grey;
+    margin-right: 0.5rem;
+    opacity: 0.7;
+}
+.searchButton > .searchBar:focus {
+    margin-right: 0.5rem;
+    border-color: rgb(255, 230, 0);
+    opacity: 1;
+}
+
+
+
+.img-fluid {
+    max-height: 8rem;
+    margin-left: 25rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: rgb(155, 152, 152);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:visited {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link:active {
+    color: yellow;
+}
+
+navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    max-width: 7rem;
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: flex-end;
+}
+
+.navbar > .container, .navbar > .container-fluid, .navbar > .container-sm, .navbar > .container-md, .navbar > .container-lg, .navbar > .container-xl, .navbar > .container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: flex-end;
+}
